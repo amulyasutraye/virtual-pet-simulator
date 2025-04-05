@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Day mode styling */
+.day {
+    background-color: #f0f8ff; /* Light blue for day */
+}
+
+/* Night mode styling */
+.night {
+    background-color: #2c3e50; /* Dark blue for night */
+    color: #ecf0f1;  /* Light text for readability at night */
+}
+
+/* To update container styling when in night mode */
+.night .container {
+    background-color: #34495e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pet-container img {
+    width: 150px;
+}
+
+.status p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background-color: #45a049;
+}
